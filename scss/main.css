@@ -1,0 +1,106 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../img/bg.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 60vmax;
+}
+
+.custom-nav .navbar-brand img {
+  width: 30px;
+  height: 30px;
+  margin-top: -7px;
+}
+.custom-nav .navbar-brand span {
+  color: #f4a325;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 0.4em;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #2e336e;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 3em;
+  transition: 0.3s;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #b9bce2;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+  display: inline-block;
+  color: white;
+  background-color: #f4a325;
+  border: 0;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-top: -1em;
+  }
+}
+
+.custom-section {
+  margin-top: 20em;
+}
+.custom-section h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #2e336e;
+  white-space: nowrap;
+  line-height: 1;
+}
+.custom-section h3 {
+  font-weight: 400;
+  font-size: 3rem;
+  color: #bbe2ef;
+  white-space: nowrap;
+  line-height: 1;
+}
+.custom-section p {
+  color: #2e336e;
+  font-size: 1.1rem;
+  margin-top: 2em;
+}
+.custom-section a {
+  margin-top: 2.2em;
+  display: inline-block;
+  color: white;
+  background-color: #f4a325;
+  border: 0;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+}
+.custom-section a:hover {
+  color: #f4a325;
+  border: 1px solid #f4a325;
+  background-color: transparent;
+}
+@media screen and (max-width: 992px) {
+  .custom-section {
+    margin-top: 3em;
+    text-align: center;
+  }
+  .custom-section h2,
+  .custom-section h3,
+  .custom-section p {
+    text-shadow: 1px 1px 2px rgba(46, 51, 110, 0.4);
+  }
+}
+
+.section-1 {
+  margin-top: 10em;
+  text-align: justify;
+}
+@media screen and (max-width: 992px) {
+  .section-1 {
+    margin-top: 5em;
+  }
+}/*# sourceMappingURL=main.css.map */
